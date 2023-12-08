@@ -1,0 +1,311 @@
+* {
+    box-sizing: border-box;
+}
+*{
+    font-family: 'Noto Sans', sans-serif;
+}
+body,html {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #ffffff;
+}
+header{
+    width: 100%;
+    text-align: center;
+    height: auto;
+}
+main{
+    margin-left: 5%;
+    margin-right: 5%;
+    height: auto
+}
+nav .categories-container li{
+    float: left;
+    list-style: none;
+}
+nav .categories-container li a{
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(162, 255, 253, 0.645);
+}
+#logo{
+    float: left;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.pag-principal{
+    text-align: center
+}
+
+/*.menu_bar {
+    display: none;
+}*/
+.header-container{
+    height: 180px;
+    background-color: #d5e6f5;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.header-container-1{
+    background-color: #d5e6f5;
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
+    grid-template-rows: 1fr; 
+}
+.two-elem-container {
+    float: right;
+    display: grid;
+}
+
+/* MENU/categorias */
+.categories-container{
+    display: grid;
+    padding: 0px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
+}
+.categories-container a{
+    color: rgb(13, 48, 68);
+    background-color:#d5e6f5;
+    list-style-type: none;
+}
+nav a:hover{
+    color: azure;
+    background: #559bb0;
+}
+
+/* Busqueda */
+.search input[type=text]{
+    width:80%;
+    /*height: 1.5em;*/
+    border: none;
+}
+.search{
+    float:right;
+    margin-right: 20px;
+    margin:3em;
+}
+.search button{
+    background-color: #b1beca;
+    width: 15%;
+    border: none;
+    cursor: pointer;
+    margin-left: -10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/*BOTON Carrito y usuario */
+.two-elem-container div{
+    margin: 0.5em;
+}
+.two-elem-container div button{
+   background-color: #b1beca;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+/*CONTACTO/MENSAJE*/
+.contacto { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr; 
+    /*margin-left: 30px;
+    margin-right: 30px;*/
+    padding:0.5em 1em;
+}
+/* INICIAR SESION Y REGISTRARSE (formulario y botones)*/
+.entrar-registrar{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+    margin: 10px;
+}
+#iniciar-sesion, #registrar, #enviar-consulta, #enviarCV{
+        /*width: 80%;*/
+        width: max-content;
+        padding: 35px 45px;
+        text-align: left;
+        color: #d5e6f5;
+        background: #576164;
+        border-radius: 10%;
+}
+
+.bot_entrar, .bot_registrar, .bot_enviarCV{
+    padding: 10px 40px;
+    font-weight: 650;
+    cursor: pointer;
+}
+.bot_entrar:hover, .bot_registrar:hover, .bot_enviarCV:hover{
+    color: azure;
+    background: #559bb0;
+}
+#bot_reg, #bot_ini, #bot_enviar{
+    padding: 10px 40px;
+    margin-top: 20px;
+    font-weight: 650;
+    cursor: pointer;
+    color: #d5e6f5;
+    background: transparent;
+}
+#bot_reg:hover, #bot_ini:hover, #bot_enviar:hover{
+    color: #559bb0;
+    background: #d5e6f5; 
+    }
+
+/* FOOTER */
+#contenedor1{
+    width: 100%;
+    max-width: 1800px;
+    margin: auto;
+    background-color: #c7e8f2;
+    font-family: 'Gabarito', cursive;
+    color: rgb(44, 44, 51);
+    height: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-content:center;
+}
+.footer-A{
+    font-family: 'Roboto', sans-serif;
+    text-decoration:double;
+    color: rgb(1, 1, 100);
+}
+.footer-A:hover{
+    color: azure;
+}
+#footer0{   
+    font-size: 1rem;
+    margin: 15px;
+}
+
+#footer1{
+    font-size: 1rem;
+    text-align: right;  
+    margin: 15px;
+}
+
+#footer2{
+    margin: 15px;
+    padding: 3px;
+    overflow:hidden;
+    position:relative;
+}
+#footer3{
+    font-size: 1rem;
+    text-align: left;
+    margin: 15px;
+}
+
+#footer4{
+    margin: 15px;
+}
+/* MAIN CARRUSEL*/
+/* Estilos para el carousel */
+.carrousel{
+    width: 100%;
+    max-width: 120em;
+    padding: 1em;
+    overflow: hidden;
+}
+.carrousel .grande{
+    width: 200%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    /*padding: 2em;*/
+    transition: all .5s ease;
+    transform: translate(-0%);
+}
+.carrousel img{
+  width: calc(100% / 2 - 0.5em);
+  height: 250px;
+  min-height: 10vh;
+  max-width: 20%;
+  max-height: 100%;
+  objetc-fit: contain;
+}
+.carrousel .puntos{
+    width: 100%;
+    /*background-color: gray;*/
+    margin: -0.5em 0 0;
+    padding: .4em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.carrousel .punto{
+    width: 2em;
+    height: 2em;
+    background-color: gainsboro;
+    margin: 1em 1em 0;
+}
+.carrousel .punto.activo{
+    background-color: orange;
+}
+@media screen and (max-width: 650px){
+
+    
+    .contacto {
+        grid-template-columns: auto;
+    }
+    #enviar-consulta{
+        text-align: center;
+        width: 100%;
+        padding: 10px 93px;
+        margin-left: -20px;
+    }
+    #iniciar-sesion, #registrar, #enviar-consulta{
+        width: 100%;
+        text-align: center;
+    }
+    
+     #contenedor1{
+        background-color: #c7e8f2;
+        width: 90%;
+        max-height: 1000px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }
+}
+
+
+/*MENU DE CATEORIAS DE LOS PRODUCTOS*/
+ /*
+
+}*/
+li ul{
+    display: none;
+    
+}
+/*
+li:hover ul{
+   display: flex;
+   position: absolute;
+   z-index: 1;
+   background-color: rgba(250, 235, 215, 0.448);
+   width: max-content;
+   margin-left:-30%; 
+   padding: 1rem 2rem; 
+   background-color: #c7e8f27b;
+   border:none; 
+
+   
+}
+ul li:hover ul li{
+    box-sizing: content-box;
+    padding: 1px;
+    transition: 0.15s;
+}
+*/

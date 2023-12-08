@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no ,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/index-style.css">
+    <link rel="icon" type="image/x-icon" href="img/logo_transparent.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Ephesis&family=Fuggles&family=Gabarito&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <title>Todo Tech</title>
+</head>
+<body>
+<script src="js/prueba-menu.js"> </script>
+<header class="header-container">
+    <div class="header-container-1">
+        <div id="logo"> <!-- logo-->
+            <a href="index.html"><img src="img/logo_transparent.png" width="100px"></a>
+        </div>
+        <div class="search"> <!--busqueda-->
+            <form action ="#">
+                <input type="text"
+                placeholder="Buscar..."
+                name="search">
+                <button>
+                    <img src="img/busqueda.png" alt="lupa" width="10px"> 
+                </button>
+            </form>
+        </div>
+        <div class ="two-elem-container"> 
+            <div><!-- carrito-->
+                <button ><a href="carrito.html"><img src="img/carrito-de-compras.png" width="20px"></a>
+                </button>
+            </div>
+            <div><!-- iniciar sesion-->
+                <button><a href="usuario.html"><img src="img/usuario.png" width="20px"></a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!--<div class="menu_bar">
+        <a href="#" class="bt-menu">Menu</a>
+    </div>-->
+    <nav> 
+        <ul class="categories-container"><!-- navegador de categorias-->
+            <li><a href="index.html">Inicio</a></li>
+            <li class="boton-productos">
+                <a href="productos.html" id="categoria-titulo">Productos</a>
+                <ul class="menu-categorias-productos">
+                    <li><a href = "productos.html" > Todos los productos</a></li>
+                    <li><a href="#audio" id="audio" class="categoria">Audio</a></li>
+                    <li><a href="#auriculares" id="auriculares" class="categoria">Auriculares</a></li>
+                    <li><a href="#camaras" id="camaras" class="categoria">Camaras</a></li>
+                    <li><a href="#celulares" id="celulares" class="categoria">Celulares</a></li>
+                    <li><a href="#monitores" id="monitores" class="categoria">Monitores</a></li>
+                    <li><a href="#mouse-y-teclado" id="mouse-y-teclado" class="categoria">Mouse y teclado</a></li>
+                    <li><a href="#notebooks" id="notebooks" class="categoria">notebooks</a></li>
+                    <li><a href="#tablets" id="tablets" class="categoria">tablets</a></li>
+                </ul>
+            </li>
+            <li><a href="contactos.html">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <!-- PREGUNTAS FRECUENTES-->
+    <section class="pg-principal">
+        <h1>Preguntas frecuentes sobre la tienda online</h1>
+            <ol>
+                <H2>COMPRAS</H2>
+                <li><h3>¿Cuáles son los pasos a seguir para comprar en la tienda Online?</h3>
+                    Elige el producto que te interesa de las secciones clasificadas de la tienda on-line, y a través de un clic conseguirás una ampliación de su fotografía además de información detallada del mismo.<br>
+                    Añade el artículo a la cesta. A continuación puedes elegir seguir comprando o tramitar pedido.<br>
+                    Selecciona un método de pago: Visa, Visa Electron, Mastercard, American Express...<br>
+                    Confirma el pedido y recibirás un correo electrónico de confirmación.<br><br>
+                </li>
+                <li><h3>¿Es seguro comprar en la tienda online?</h3>
+                    Sí. Puedes comprar con total tranquilidad, pues dedicamos un gran esfuerzo en disponer de recursos con los que garantizar la seguridad de tus compras y de tus datos.<br><br>
+                </li>
+                <li><h3>¿Se reponen los artículos con la indicación “agotado”?</h3>
+                    Si un artículo está agotado, trataremos de reponerlo lo antes posible. Si no hubiese más existencias del mismo, lo retiraremos de la página web.<br><br>
+                </li>
+                <li><h3>¿Recibiré el mismo producto que veo en la fotografía de la tienda online?</h3>
+                    Sí, excepto en aquellos productos manufacturados por medio de procesos artesanales en los que podría haber mínimas diferencias de acabado.<br><br>
+                </li>
+                <li><h3>¿Es posible recibir información periódica en mi buzón de correo electrónico con las últimas novedades y ofertas de la tienda online?¿Es posible recibir información periódica en mi buzón de correo electrónico con las últimas novedades y ofertas de la tienda online?</h3>
+                    Si dispones de tu alta en la “Newsletter” recibirás información sobre las últimas novedades, además de las nuevas actividades culturales que podrás disfrutar.<br><br>
+                </li>
+                <li><h3>¿Cómo puedo asegurarme de haber realizado bien mi compra?</h3>
+                    Una vez hecho tu pedido, recibirás un correo electrónico de confirmación. Si no lo recibieses, ponte en contacto con nuestro departamento de atención al cliente. <br><br>
+                </li>
+                <li><h3>¿Qué debo hacer si recibo un artículo incorrecto o defectuoso?</h3>
+                    Si en alguna ocasión, por error, llegases a recibir un artículo no solicitado o con alguna tara o defecto, ponte en contacto con nuestro departamento de atención al cliente.<br><br>
+                </li>
+            <H2>PAGO</H2>
+                <li><h3>¿Es seguro utilizar mi tarjeta de crédito en la página web?</h3>
+                    Sí, sus datos se transmiten de forma totalmente encriptada SSL. Para el pago con Visa y Mastercard sólo se aceptarán transacciones CES (Comercio Electrónico Seguro). Así pues, tras verificar que la tarjeta está adherida al sistema CES, el sistema contactará con el banco que la ha emitido para que autorice la compra. Una vez el banco confirme la autenticidad, se efectuará el cargo en la tarjeta. En caso contrario el pedido será cancelado.<br><br>
+                </li>
+                <li><h3>¿Puedo obtener una factura a nombre de mi empresa?</h3>
+                    Sí. Solamente tienes que cubrir los datos fiscales que te pedimos.<br><br>
+                </li>
+            <h2>ENVÍO</h2>
+                <li><h3>¿Puedo saber en qué estado se encuentra mi pedido?</h3>
+                    Sí. Tras la recepción de tu confirmación de pedido recibirás una notificación certificando la salida y envío del paquete. Dispones de un nº localizador del envío que te permite llevar a cabo un seguimiento del envío a cualquier hora desde la página web www.correos.es . Si deseas disponer de más información no dudes en ponerte en contacto con nuestro departamento de atención al cliente. <br><br>
+                </li>
+                <li><h3>¿Cómo puedo cancelar mi pedido?</h3>
+                    Podrás cancelar tu pedido, siempre y cuando el estado del mismo lo permita. Puede ser perfectamente factible antes de la recepción del correo electrónico de notificación de salida del envío. Para ello, deberás ponerte en contacto con nuestro departamento de atención al cliente.<br><br>
+                </li>
+                <li><h3>¿Qué debo hacer si recibo un artículo incorrecto o defectuoso?</h3>
+                    Si en alguna ocasión, por error, llegases a recibir un artículo no solicitado o con alguna tara o defecto, ponte en contacto con nuestro departamento de atención al cliente.<br><br>
+                </li>
+                <li><h3>¿Cuánto tardará en llegar mi pedido?</h3>
+                    Los plazos de entrega dependen del destino al que se dirigen los envíos. Para envíos nacionales se usa el modelo de paquete postal 48/72 y su plazo de entrega estimado en España es de 48 a 72 horas hábiles. Para envíos internacionales dentro de la Unión Europea se usa el modelo de paquete internacional económico que dispone de un plazo estimado de 8 a 10 días laborables. Para otros destinos internacionales depende de cada país.<br><br>
+                </li>
+                <li><h3>¿Cuánto he de pagar de gastos de envío?</h3>
+                    Los gastos de envío estándar son de 4,00 EUR.<br><br>                    
+                </li>
+                <li><h3>¿Cuál es el proceso de la entrega de un pedido?</h3>
+                    El envío estará dirigido a la Oficina de Correos de Referencia más cercana a la dirección de destino. Correos notificará su llegada por medio de un Aviso depositado en el buzón del destinatario.<br><br>
+                </li>
+            <h2>CAMBIOS Y DEVOLUCIONES</h2>
+                <li><h3>¿Puedo cambiar mis artículos?</h3>
+                    Sí, los cambios se podrán realizarse de color y/o talla sobre la misma referencia o en sustitución de otro artículo. El proceso de cambio debe iniciarse en los 15 días laborables posteriores a la recepción del pedido y el cliente deberá hacerse cargo de los gastos de envío que genere ese proceso.<br><br>
+                </li>
+                <li><h3>¿Cómo debo hacer para devolver un artículo?</h3>
+                    Para llevar a cabo una devolución deberás primeramente notificarlo poniéndote en contacto con nosotros en nuestro departamento de atención al cliente.
+                    Descargar, rellenar y enviarnos el documento de desistimiento correspondiente.<br>
+                    Enviar los artículos a través de la Sociedad Estatal de Correos y Telégrafos y por medio de un modelo de paquete que permita que el valor y circulación de su contenido estén registrados o controlados hasta su destino.<br><br>
+                </li>
+                <li><h3>¿Cuál es el plazo para poder realizar una devolución?</h3>
+                    El plazo para cualquier devolución estará dentro de los 30 días naturales desde la recepción de su notificación de devolución.<br><br>
+                </li>
+                <li><h3>¿Tengo que pagar algo por mi devolución?</h3>
+                    El cliente deberá hacerse cargo de los gastos de envío que genere este proceso.<br><br>
+                </li>
+                <li><h3>¿Cuándo recibiré el reembolso de mi devolución?</h3>
+                    
+            Tras aprobar la devolución (los artículos tienen que estar en perfecto estado y tener las etiquetas interiores) recibirás un correo electrónico de confirmación indicándote que el importe se abonará en tu cuenta en unos días. Recuerda que el abono a la tarjeta de crédito depende siempre de tu entidad bancaria.<br><br>
+                </li>
+            </ol>
+    </section>
+</main>
+
+<!-- FOOTER-->
+<footer id="contenedor1">
+    <div id="footer0"><!--logo-->
+        <img src="img/logo_transparent.png" width="150px">
+    </div>
+    <div id="footer1"><!--Medios de pagos - Preguntas Frecuentes - Trabaja con nosotros-->
+        <p>Conoce nuestros medios de pagos: <br> <a class="footer-A" href="mediosdepago.html">Medios de pagos</a></p>
+        <p><a class="footer-A" id="bpreguntas" type="button" onclick="bpregfr()" href="preguntas-frecuentes.html">Preguntas Frecuentes</a></p>
+        <p><a class="footer-A" href="trabajaconnostros.html">Trabaja con nosotros</a></p>
+        <p><a class="footer-A" href="quienessomos.html">¿Quienes somos?</a></p>
+    </div>
+    <div id="footer2"><!--ubicacion mapa-->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13619.164466559434!2d-64.1882429!3d-31.4198807!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a32dcf5d747f%3A0x40373220b29140ac!2sPatio%20Olmos%20Shopping!5e0!3m2!1ses-419!2sar!4v1696372543222!5m2!1ses-419!2sar" width="auto" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+    </div>
+    <div id="footer3"><!--Contactos-->
+        <p> Encontranos en: <br>
+        Av. Vélez Sarsfield 361, Córdoba Capital</p>
+        <p>Lunes a Sabados de 10hs a 22hs
+        <br>Domingos de 10hs a 18hs</p>
+        <p>Atencion al cliente: <br> 0800-111-1234</p> 
+    </div>
+    <div id="footer4"><!--redes sociales-->
+        <br>
+        <a class="footer-A"  href="https://web.whatsapp.com/" target="_blank"><img src="img/whatsapp.png" alt="Whatsapp" width="35px" height="35px"></a><br>
+        <a class="footer-A" href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png" alt="Instagram"  width="35px" height="35px"></a>
+        <a class="footer-A" href="https://www.facebook.com/" target="_blank"><img src="img/facebook.png" alt="Facebook"  width="35px" height="35px"></a><br>
+        <a class="footer-A" href="https://www.youtube.com/" target="_blank"><img src="img/youtube.png" alt="Youtube" wwidth="35px" height="35px"></a>
+        <a class="footer-A" href="https://twitter.com/" target="_blank"><img src="img/twitter.png" alt="whatsapp" width="35px" height="35px"></a>
+    </div>
+</footer>
+</body>
+</html>

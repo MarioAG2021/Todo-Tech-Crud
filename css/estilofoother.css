@@ -1,0 +1,46 @@
+#contenedor1{
+    background-color: rgb(175, 132, 185);
+    font-family: 'Gabarito', cursive;
+    color: white;
+    height: 200px;
+    text-align: center;
+    
+    display: grid;
+    grid-template-columns: 10% 25% 25% 25% auto;
+    grid-template-rows: 95%;
+    justify-content:center;
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration:double;
+    color: rgb(1, 1, 100);
+
+}
+
+#footer0{
+    font-size: 1rem;
+    margin: 15px;
+}
+
+#footer1{
+    font-size: 1rem;
+    text-align: right;  
+    margin: 15px;
+}
+
+#footer2{
+    margin: 15px;
+    padding: 3px;
+    overflow:hidden;
+    position:relative;
+}
+#footer3{
+    font-size: 1rem;
+    text-align: left;
+    margin: 15px;
+}
+
+#footer4{
+    margin: 15px;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no ,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/index-style.css">
+    <link rel="icon" type="image/x-icon" href="img/logo_transparent.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Ephesis&family=Fuggles&family=Gabarito&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <title>Todo Tech</title>
+</head>
+<body>
+<script defer src="js/prueba-menu.js"> </script>
+<header class="header-container">
+    <div class="header-container-1">
+        <div id="logo"> <!-- logo-->
+            <a href="index.html"><img src="img/logo_transparent.png" width="100px"></a>
+        </div>
+        <div class="search"> <!--busqueda-->
+            <form action ="#">
+                <input type="text"
+                placeholder="Buscar..."
+                name="search">
+                <button>
+                    <img src="img/busqueda.png" alt="lupa" width="10px"> 
+                </button>
+            </form>
+        </div>
+        <div class ="two-elem-container"> 
+            <div><!-- carrito-->
+                <button ><a href="carrito.html"><img src="img/carrito-de-compras.png" width="20px"></a>
+                </button>
+            </div>
+            <div><!-- iniciar sesion-->
+                <button><a href="usuario.html"><img src="img/usuario.png" width="20px"></a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!--<div class="menu_bar">
+        <a href="#" class="bt-menu">Menu</a>
+    </div>-->
+    <nav> 
+        <ul class="categories-container"><!-- navegador de categorias-->
+            <li><a href="index.html">Inicio</a></li>
+            <li class="boton-productos">
+                <a href="productos.html" id="categoria-titulo">Productos</a>
+                <ul class="menu-categorias-productos">
+                    <li><a href = "productos.html" > Todos los productos</a></li>
+                    <li><a href="#audio" id="audio" class="categoria">Audio</a></li>
+                    <li><a href="#auriculares" id="auriculares" class="categoria">Auriculares</a></li>
+                    <li><a href="#camaras" id="camaras" class="categoria">Camaras</a></li>
+                    <li><a href="#celulares" id="celulares" class="categoria">Celulares</a></li>
+                    <li><a href="#monitores" id="monitores" class="categoria">Monitores</a></li>
+                    <li><a href="#mouse-y-teclado" id="mouse-y-teclado" class="categoria">Mouse y teclado</a></li>
+                    <li><a href="#notebooks" id="notebooks" class="categoria">notebooks</a></li>
+                    <li><a href="#tablets" id="tablets" class="categoria">tablets</a></li>
+                </ul>
+            </li>
+            <li><a href="contactos.html">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+    <section class="main">
+        <div class="carrousel">
+            <div class="grande">
+                <img src="img/01.png" alt="imagen 1" class="img">
+                <img src="img/02.png" alt="imagen 2" class="img">
+            </div>
+            <ul class="puntos">
+                <li class="punto activo"></li>
+                <li class="punto"></li>
+            </ul>
+        </div>
+    </section>
+<script src="js/prueba-menu.js"> </script>
+<!-- FOOTER-->
+<footer id="contenedor1">
+    <div id="footer0"><!--logo-->
+        <img src="img/logo_transparent.png" width="150px">
+    </div>
+    <div id="footer1"><!--Medios de pagos - Preguntas Frecuentes - Trabaja con nosotros-->
+        <p>Conoce nuestros medios de pagos: <br> <a class="footer-A" href="mediosdepago.html">Medios de pagos</a></p>
+        <p><a class="footer-A" id="bpreguntas" type="button" onclick="bpregfr()" href="preguntas-frecuentes.html">Preguntas Frecuentes</a></p>
+        <p><a class="footer-A" href="trabajaconnostros.html">Trabaja con nosotros</a></p>
+        <p><a class="footer-A" href="quienessomos.html">¿Quienes somos?</a></p>
+    </div>
+    <div id="footer2"><!--ubicacion mapa-->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13619.164466559434!2d-64.1882429!3d-31.4198807!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a32dcf5d747f%3A0x40373220b29140ac!2sPatio%20Olmos%20Shopping!5e0!3m2!1ses-419!2sar!4v1696372543222!5m2!1ses-419!2sar" width="auto" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+    </div>
+    <div id="footer3"><!--Contactos-->
+        <p> Encontranos en: <br>
+        Av. Vélez Sarsfield 361, Córdoba Capital</p>
+        <p>Lunes a Sabados de 10hs a 22hs
+        <br>Domingos de 10hs a 18hs</p>
+        <p>Atencion al cliente: <br> 0800-111-1234</p> 
+    </div>
+    <div id="footer4"><!--redes sociales-->
+        <br>
+        <a class="footer-A"  href="https://web.whatsapp.com/" target="_blank"><img src="img/whatsapp.png" alt="Whatsapp" width="35px" height="35px"></a><br>
+        <a class="footer-A" href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png" alt="Instagram"  width="35px" height="35px"></a>
+        <a class="footer-A" href="https://www.facebook.com/" target="_blank"><img src="img/facebook.png" alt="Facebook"  width="35px" height="35px"></a><br>
+        <a class="footer-A" href="https://www.youtube.com/" target="_blank"><img src="img/youtube.png" alt="Youtube" wwidth="35px" height="35px"></a>
+        <a class="footer-A" href="https://twitter.com/" target="_blank"><img src="img/twitter.png" alt="whatsapp" width="35px" height="35px"></a>
+    </div>
+</footer>
+</body>
+</html>
